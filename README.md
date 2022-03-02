@@ -9,7 +9,7 @@ Usage
 ![screenshot1](/screenshots/screenshot1.png)
 ![screenshot2](/screenshots/screenshot2.png)
 
-Changes to riginal:
+Changes to Original:
 -------------
 * width an color of Cycle Trails / Paved Cycleways (initial idea of BadmanBarista)
 * paved tracks -> black solid lines
