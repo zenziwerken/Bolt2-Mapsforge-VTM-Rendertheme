@@ -2,7 +2,7 @@ Bolt2-Mapsforge-Rendertheme
 =============
 
 Usage
-=============
+-------------
 * create the directory `maps\vtm-elemnt`
 * copy files via Explorer to the Bolt
 
@@ -10,7 +10,7 @@ Usage
 ![screenshot2](/screenshots/screenshot2.png)
 
 Changes to riginal:
-=============
+-------------
 * width an color of Cycle Trails / Paved Cycleways (initial idea of BadmanBarista)
 * paved tracks 
 * Non-paved tracks -> dahed lines
