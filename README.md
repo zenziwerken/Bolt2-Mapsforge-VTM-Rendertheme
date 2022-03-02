@@ -12,8 +12,8 @@ Usage
 Changes to riginal:
 -------------
 * width an color of Cycle Trails / Paved Cycleways (initial idea of BadmanBarista)
-* paved tracks 
-* Non-paved tracks -> dahed lines
+* paved tracks -> black solid lines
+* Non-paved tracks -> dashed lines
 * added landuse forrest
 * color of waterways
 * highway outlines for smaller roads and bike lanes / small briges
