@@ -156,7 +156,7 @@
       <line cat="bolt2-dark" width="1" stroke="#005555" />
    </m>
    
-   <m e="way" k="waterway" v="drain" zoom-min="14">
+   <m e="way" k="waterway" v="stream" zoom-min="13">
       <line cat="bolt" fix="true" width="1" dasharray="2,2" />
       <line cat="roam" width="1" stroke="#00FFFF" />
       <line cat="bolt2" width="1" stroke="#0080FF" />
