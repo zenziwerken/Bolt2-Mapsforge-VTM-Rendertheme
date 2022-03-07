@@ -110,15 +110,15 @@
    <m e="way" k="natural" v="issea|sea" >
       <area cat="bolt" src="patterns/gray.png" />
       <area cat="roam" fill="#00FFFF" />
-	  <area cat="bolt2" fill="#00FFFF"/> 
+      <area cat="bolt2" fill="#0080FF"/> 
       <area cat="bolt2-dark" fill="#005555" />
    </m>
 
    <m e="way" k="natural" v="nosea">
-      <area cat="bolt" fill="#ffffff" />
-      <area cat="roam" fill="#ffffff" />
-      <area cat="bolt2" fill="#ffffff" />
-      <area cat="bolt2-dark" fill="#000000" />
+      <area cat="bolt" fill="#ffffff" mesh="true" />
+      <area cat="roam" fill="#ffffff" mesh="true"/>
+      <area cat="bolt2" fill="#ffffff" mesh="true" />
+      <area cat="bolt2-dark" fill="#000000" mesh="true" />
    </m>
    
    <m e="way" k="natural|landcover" v="wood|trees|scrub">
