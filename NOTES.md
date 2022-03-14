@@ -12,6 +12,8 @@ On Cruiser this results in pretty screaming color, but on the reflective display
 Be aware that the lightest gray is `#AAAAAA`.
 Make sure to create a suitable contrast!
 
+[html presentation of avalable color](https://htmlpreview.github.io/?https://github.com/zenziwerken/Bolt2-Mapsforge-Rendertheme/blob/main/COLORS.html)
+
 ## Symbols
 To adjust the size of symbols they can be scaled like this:
 
