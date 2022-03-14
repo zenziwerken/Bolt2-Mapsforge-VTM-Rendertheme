@@ -33,3 +33,9 @@ In the original `vtm-elemnt.xml` there are some custom tags that need to be mapp
 Artefacts of natural=nosea
 ---
 When rendering my first own maps I had some artefacts of `natural=nosea`. Investigating this I found that the used `land-polygons-split-4326` are – as stated – split. Problem here is the overlapping ares. So adding the tag `mesh="true"` resolves the problem. [[source]](https://github.com/mapsforge/vtm/issues/224#issuecomment-260911095)
+
+Screenshots / Screenrecord
+---
+According to the [article by DC RAINMAKER](https://www.dcrainmaker.com/2021/07/screen-record-wahoo.html) it is quite simple to create a screencapture on the Wahoo Bolt.
+* just create a the folder names `capture` on the bolt. Start recording by using the system menu on the bolt:
+* ![screenshot3](/screenshots/screenshot3.png)
