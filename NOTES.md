@@ -39,4 +39,4 @@ Screenshots / Screenrecord
 According to the [article by DC RAINMAKER](https://www.dcrainmaker.com/2021/07/screen-record-wahoo.html) it is quite simple to create a screencapture on the Wahoo Bolt.
 Create a the folder names `capture` on the bolt. Start recording by using the system menu on the bolt:
 
-![screenshot3](/screenshots/screenshot3.png)
+![screenshot3](/screenshots/screenshot-3.png)
