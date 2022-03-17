@@ -81,38 +81,27 @@
     <osm-tag key="leisure" value="park" zoom-appear="8" />
   </ways>
   
-    <!-- Buil -->
+    <!-- BUILDINGS -->
   <ways>
-    <osm-tag key="landuse" value="commercial" zoom-appear="10" />
-    <osm-tag key="landuse" value="industrial" zoom-appear="10" />
-    <osm-tag key="landuse" value="residential" zoom-appear="10" />
-    <osm-tag key="landuse" value="retail" zoom-appear="10" />
+    <osm-tag key='landuse' value='building' equivalent-values='commercial,industrial,residential,retail' zoom-appear="10"  />
   </ways>
 
   <!-- PUBLIC TRANSPORT -->
   <ways>
-    <osm-tag key="railway" value="disused" zoom-appear="10" />
-    <osm-tag key="railway" value="funicular" zoom-appear="10" />
-    <osm-tag key="railway" value="light_rail" zoom-appear="10" />
-    <osm-tag key="railway" value="miniature" zoom-appear="10" />
-    <osm-tag key="railway" value="narrow_gauge" zoom-appear="10" />
-    <osm-tag key="railway" value="preserved" zoom-appear="10" />
     <osm-tag key="railway" value="rail" zoom-appear="10" />
-    <osm-tag key="railway" value="subway" zoom-appear="10" />
-    <osm-tag key="railway" value="tram" zoom-appear="10" />
-	
   </ways>
 
   <!-- OTHER TAGS -->
   <ways>
-    <osm-tag key="place" value="locality" zoom-appear="10" />
     <osm-tag key="area" value="yes" zoom-appear="3" />
-    <osm-tag key="waterway" value="name" zoom-appear="8"/>
   </ways>
 
   <!-- NOT TO RENDER -->
   <ways>
     <osm-tag key="id" renderable="false" value="%f" />
+	
+    <osm-tag key="ref" renderable="false" value="%s" />
+    <osm-tag key="name" renderable="false" value="%s" />
   
     <osm-tag key="access" value="destination" renderable="false"/>
     <osm-tag key="access" value="private" renderable="false"/>
@@ -125,31 +114,16 @@
     <osm-tag key="tracktype" value="grade4" renderable="false"/>
     <osm-tag key="tracktype" value="grade5" renderable="false"/>
 
-	
-	<osm-tag key='surface' value='bic_paved' equivalent-values='paved,asphalt,concrete' renderable='false' />
-	<osm-tag key='surface' value='bic_unpaved' equivalent-values='raw,gravel,rock,pebblestone,ground,dirt,earth,mud' renderable='false' />
-
-	
+    <osm-tag key='surface' value='bic_paved' equivalent-values='paved,asphalt,concrete' renderable='false' />
+    <osm-tag key='surface' value='bic_unpaved' equivalent-values='raw,gravel,rock,pebblestone,ground,dirt,earth,mud' renderable='false' />
+	  
     <osm-tag key="tunnel" value="yes" renderable="false"/>
     <osm-tag key="tunnel" value="no" renderable="false"/>
 
-	<osm-tag key='bicycle' value='bic_yes' equivalent-values='yes,public,allowed' renderable='false' />
-	<osm-tag key='bicycle' value='bic_designated' equivalent-values='designated,official' renderable='false' />
-	<osm-tag key='bicycle' value='bic_permissive' equivalent-values='permissive' renderable='false' />
-	<osm-tag key='bicycle' value='bic_no' equivalent-values='no,prohibited' renderable='false' />
-	<osm-tag key='bicycle' value='bic_private' equivalent-values='delivery,restricted' renderable='false' />
-	<osm-tag key='bicycle' value='bic_forestry' equivalent-values='agricultural,agricultural,forestry' renderable='false' />
-	<osm-tag key='bicycle' value='bic_destination' equivalent-values='customers' renderable='false' />
-	<osm-tag key='bicycle' value='bic_permit' equivalent-values='license,fee,toll' renderable='false' />
+    <osm-tag key='bicycle' value='bic_yes' equivalent-values='yes,public,allowed' renderable='false' />
+    <osm-tag key='bicycle' value='bic_designated' equivalent-values='designated,official' renderable='false' />
 	
-	<osm-tag key='foot' value='ft_yes' equivalent-values='yes,public,allowed' renderable='false' />
-	<osm-tag key='foot' value='ft_designated' equivalent-values='designated,official' renderable='false' />
-	<osm-tag key='foot' value='ft_permissive' equivalent-values='permissive' renderable='false' />
-	<osm-tag key='foot' value='ft_no' equivalent-values='no,prohibited' renderable='false' />
-	<osm-tag key='foot' value='ft_private' equivalent-values='delivery,restricted' renderable='false' />
-	<osm-tag key='foot' value='ft_destination' equivalent-values='customers' renderable='false' />
-	<osm-tag key='foot' value='ft_permit' equivalent-values='license,fee,toll' renderable='false' />
-	
-
-	</ways>
+    <osm-tag key='foot' value='ft_yes' equivalent-values='yes,public,allowed' renderable='false' />
+    <osm-tag key='foot' value='ft_designated' equivalent-values='designated,official' renderable='false' />
+  </ways>
 </tag-mapping>
