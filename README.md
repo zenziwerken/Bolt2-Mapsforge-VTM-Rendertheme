@@ -20,8 +20,9 @@ Changes to Original:
 * highway outlines for smaller roads and bike lanes / small briges
 * changed color of contruction to red dashed line
 * added railways
+* added labels for motorway, primary
+* added labels for river[^note]
 * added some pois like fuel, backery, cafe, railway station[^note]
-* added labels for motorway, primary and river[^note]
 * added landuse buildings[^note]
 
 [^note]: requires [advanced map material](https://github.com/treee111/wahooMapsCreator), [this tag-mapping-file](https://github.com/zenziwerken/Bolt2-Mapsforge-Rendertheme/blob/main/tag-wahoo.xml) and the attached icons
