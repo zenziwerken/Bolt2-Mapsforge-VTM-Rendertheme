@@ -11,9 +11,7 @@
         <osm-tag key="shop" value="bakery" zoom-appear="14" /> 
 	<osm-tag key="shop" value="bicycle" zoom-appear="14" />
 		
-	<osm-tag key="railway" value="station" zoom-appear="13" /> 
-	<osm-tag key="railway" value="halt" zoom-appear="13" /> 
-	<osm-tag key="railway" value="stop" zoom-appear="13" /> 
+		<osm-tag key="railway" value="station" equivalent-values='station,halt,stop' zoom-appear="13" /> 
 		
 		
   </pois>
@@ -27,6 +25,7 @@
     <osm-tag key="place" value="town" zoom-appear="8" />
     <osm-tag key="place" value="village" zoom-appear="11" />
   </pois>
+
 
   <!-- ************* WAYS *************** -->
 
@@ -100,10 +99,7 @@
   <!-- NOT TO RENDER -->
   <ways>
     <osm-tag key="id" renderable="false" value="%f" />
-	
-    <osm-tag key="ref" renderable="false" value="%s" />
-    <osm-tag key="name" renderable="false" value="%s" />
-  
+	  
     <osm-tag key="access" value="destination" renderable="false"/>
     <osm-tag key="access" value="private" renderable="false"/>
     
@@ -126,5 +122,6 @@
 	
     <osm-tag key='foot' value='ft_yes' equivalent-values='yes,public,allowed' renderable='false' />
     <osm-tag key='foot' value='ft_designated' equivalent-values='designated,official' renderable='false' />
+
   </ways>
 </tag-mapping>
