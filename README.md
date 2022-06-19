@@ -12,10 +12,10 @@ Usage
 
 Changes to Original:
 -------------
-* width an color of Cycle Trails / Paved Cycleways (initial idea of BadmanBarista)
+* width and color of Cycle Trails / Paved Cycleways (initial idea of BadmanBarista)
 * paved tracks -> black solid lines
 * Non-paved tracks -> dashed lines
-* added landuse forrest
+* added landuse forrest, more detailed with[^note]
 * color of waterways
 * highway outlines for smaller roads and bike lanes / small briges
 * changed color of contruction to red dashed line
