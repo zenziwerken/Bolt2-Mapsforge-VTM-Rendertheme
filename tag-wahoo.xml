@@ -89,6 +89,7 @@
   <!-- PUBLIC TRANSPORT -->
   <ways>
     <osm-tag key="railway" value="rail" zoom-appear="10" />
+    <osm-tag key="railway" value="tram" zoom-appear="12" />
   </ways>
 
   <!-- OTHER TAGS -->
