@@ -619,10 +619,13 @@
    <!-- endregion highway -->
 
    <!-- railway (no tunnel) -->
-   <m k="railway" zoom-min="11">
+   <m k="railway" >
       <m k="tunnel" v="~|false|no">
-         <m v="rail">
+         <m v="rail" zoom-min="11">
             <line cap="butt" fade="12" fix="true" stipple="15" stipple-stroke="#ffffff" stipple-width="0.7" stroke="#000000"  width="3" />
+         </m>
+	 <m v="tram" zoom-min="14">
+            <line cap="butt" fade="15" fix="true" stipple="15" stipple-stroke="#ffffff" stipple-width="0.7" stroke="#AAAAAA"  width="3" />
          </m>
       </m>
    </m>
