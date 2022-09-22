@@ -150,9 +150,17 @@
 		<!-- the outline of bridges -->
 		<outline-layer id="bridge" stroke="#000000" width="1"/>
 		<outline-layer id="bridge_small" stroke="#666666" width="0.6"/>
+				
+		<!-- area:highway=pedestrian -->
+		<m e="way" k="area" v="yes">
+			<m e="way" k="highway" v="pedestrian" zoom-min="12" stroke-linecap="butt">
+				<line stroke="#000000" width="0.8"/>
+				<area fill="#FFFFFF" />
+			</m>
+		</m>
+		
 		<m e="way" k="area" v="~|no|false">
-			<!-- region paths & tracks 
-		 -->
+			<!-- region paths & tracks -->
 			<m k="access" v="private" zoom-min="16">
 				<m e="way" k="highway" v="path" zoom-min="12">
 					<line stroke="#000000" width="0.2" dasharray="12,6" cap="butt"/>
@@ -236,12 +244,7 @@
 				</m>
 			</m>
 			<!-- endregion -->
-			<m cat="bolt2" e="way" k="network" v="ncn">
-				<line stroke="#AA00AA" stroke-width="3.6" stroke-linecap="butt"/>
-			</m>
-			<m cat="bolt2" e="way" k="network" v="icn">
-				<line stroke="#FF0000" stroke-width="3.6" stroke-linecap="butt"/>
-			</m>
+
 			<!-- region tracks -->
 			<m cat="trails-osm" k="access" v="-|private">
 				<m e="way" k="highway" v="footway|pedestrian" zoom-min="14">
