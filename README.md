@@ -1,4 +1,4 @@
-Bolt2-vtm-Rendertheme
+Bolt2-VTM-Rendertheme
 =============
 
 Usage
