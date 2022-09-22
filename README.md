@@ -1,4 +1,4 @@
-Bolt2-Mapsforge-Rendertheme
+Bolt2-vtm-Rendertheme
 =============
 
 Usage
