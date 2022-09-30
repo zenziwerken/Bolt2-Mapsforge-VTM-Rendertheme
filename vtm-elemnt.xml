@@ -99,10 +99,11 @@
 	</m>
 	<m e="way" k="leisure" v="park|nature_reserve">
 		<area cat="bolt2" fill="#55FF55" blend="12" blend-fill="#AAFFAA"/>
-		<area cat="bolt2-dark" fill="#55AA55"/>
+		<area cat="roam" src="patterns/light_green.png" />
 	</m>
 	<m e="way" k="landuse" v="building|commercial|industrial|residential|retail">
 		<area cat="bolt2" fill="#FFAAAA"/>
+		<area cat="roam" src="patterns/light_red.png" />
 	</m>
 	<m e="way" k="natural" v="wetland">
 		<area cat="bolt2" fill="#55FFFF"/>
