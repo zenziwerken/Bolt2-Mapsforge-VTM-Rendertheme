@@ -96,6 +96,7 @@
 	</m>
 	<m e="way" k="natural|landcover|landuse" v="wood|trees|scrub|forest">
 		<area cat="bolt2" fill="#55FF55" blend="12" blend-fill="#AAFFAA"/>
+		<area cat="roam" src="patterns/light_green.png" />
 	</m>
 	<m e="way" k="leisure" v="park|nature_reserve">
 		<area cat="bolt2" fill="#55FF55" blend="12" blend-fill="#AAFFAA"/>
@@ -111,7 +112,7 @@
 	</m>
 	<m e="way" k="natural" v="beach" zoom-min="12">
 		<area cat="bolt2" fill="#FFFF00"/>
-		<area cat="bolt2-dark" fill="#66EECC"/>
+		<area cat="roam" src="patterns/light_yellow.png" />
 	</m>
 	<m e="way" k="natural" v="water">
 		<area cat="bolt" src="patterns/gray.png"/>
