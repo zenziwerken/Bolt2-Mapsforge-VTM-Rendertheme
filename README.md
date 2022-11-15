@@ -1,5 +1,6 @@
 Bolt2-Mapsforge-VTM-Rendertheme
 =============
+This vtm-Rendertheme is based on the original from Wahoo. It will work on the Wahoo Bolt2 and Roam 2 (heavily tested) adn the original Roam (not tested in lack of the deivce). It is not intended to be used the the original Bolt 1 and ELEMNT.
 
 Usage
 -------------
