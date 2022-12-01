@@ -169,11 +169,11 @@
 					<line cat="bolt2" outline="bolt2-major-roads" stroke="#FFAA00" width="2.5"/>
 				</m>
 				<m e="way" k="highway" v="motorway" zoom-min="12">
-					<line cat="roam" outline="roam-highway" stroke="#FFFF00" width="4"/>
+					<line cat="roam" outline="roam-highway" stroke="#FF00FF" width="4"/>
 					<line cat="bolt2" outline="bolt2-highway" stroke="#AA5500" width="3.5"/>
 				</m>
 				<m e="way" k="highway" v="motorway" zoom-min="8" zoom-max="11">
-					<line cat="roam" outline="roam-highway" stroke="#FFFF00" width="4"/>
+					<line cat="roam" outline="roam-highway" stroke="#FF00FF" width="4"/>
 					<line cat="bolt2" outline="bolt2-highway" stroke="#AA5500" width="4"/>
 				</m>
 				<m e="way" k="highway" v="motorway|primary">
@@ -351,19 +351,19 @@
 					<line cat="bolt2" outline="bridge" cap="butt" stroke="#FFAA00" width="3"/>
 				</m>
 				<m e="way" k="highway" v="motorway_link" zoom-min="12">
-					<line cat="roam" outline="bridge" cap="butt" stroke="#FFFF00" width="2.5"/>
+					<line cat="roam" outline="bridge" cap="butt" stroke="#FF00FF" width="2.5"/>
 					<line cat="bolt2" outline="bridge" cap="butt" stroke="#AA5500" width="2.5"/>
 				</m>
 				<m e="way" k="highway" v="motorway" zoom-min="12">
-					<line cat="roam" outline="bridge" cap="butt" stroke="#FFFF00" width="3.5"/>
+					<line cat="roam" outline="bridge" cap="butt" stroke="#FF00FF" width="3.5"/>
 					<line cat="bolt2" outline="bridge" cap="butt" stroke="#AA5500" width="3.5"/>
 				</m>
 				<m e="way" k="highway" v="motorway_link" zoom-min="8" zoom-max="11">
-					<line cat="roam" outline="bridge" cap="butt" stroke="#FFFF00" width="2.5"/>
+					<line cat="roam" outline="bridge" cap="butt" stroke="#FF00FF" width="2.5"/>
 					<line cat="bolt2" outline="bridge" cap="butt" stroke="#AA5500" width="2.5"/>
 				</m>
 				<m e="way" k="highway" v="motorway" zoom-min="8" zoom-max="11">
-					<line cat="roam" outline="bridge" cap="butt" stroke="#FFFF00" width="4"/>
+					<line cat="roam" outline="bridge" cap="butt" stroke="#FF00FF" width="4"/>
 					<line cat="bolt2" outline="bridge" cap="butt" stroke="#AA5500" width="4"/>
 				</m>
 			</m>
