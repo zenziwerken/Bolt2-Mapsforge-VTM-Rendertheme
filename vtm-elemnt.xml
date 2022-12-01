@@ -64,7 +64,7 @@
 	</m>
 	<m e="way" k="landuse" v="building|commercial|industrial|residential|retail">
 		<area cat="bolt2" fill="#FFAAAA"/>
-		<area cat="roam" fill="#F0000"/>
+		<area cat="roam" fill="#FF0000"/>
 	</m>
 	<m e="way" k="natural" v="wetland">
 		<area cat="bolt2" fill="#55FFFF"/>
