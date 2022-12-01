@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rendertheme xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" map-background="#FFFFFF" version="1" xmlns="http://opensciencemap.org/rendertheme" xsi:schemaLocation="http://opensciencemap.org/rendertheme https://raw.githubusercontent.com/mapsforge/vtm/master/resources/rendertheme.xsd">
+	<!-- Version 2022-12-01 19:15:49 -->
 	<stylemenu id="stylemenu" defaultvalue="BOLT_2" defaultlang="en">
 		<layer id="ROAM">
 			<name lang="en" value="Roam"/>
@@ -95,7 +96,7 @@
 	<!-- region highways -->
 	<m e="way" k="tunnel" v="~|no|false" zoom-min="8">
 		<!-- highway outlines -->
-		<outline-layer cat="roam" id="roam-highway" stroke="#550000" width="1"/>
+		<outline-layer cat="roam" id="roam-highway" stroke="#000000" width="1"/>
 		<outline-layer cat="roam" id="roam-major-roads" stroke="#000000" width="1"/>
 		<outline-layer cat="roam" id="roam-minor-roads" stroke="#000000" width="1" zoom-min="12"/>
 		<outline-layer cat="roam" id="roam-bikepath" stroke="#000000" width="1" zoom-min="12"/>
