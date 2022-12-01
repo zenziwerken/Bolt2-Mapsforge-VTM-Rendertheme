@@ -55,26 +55,26 @@
 	</m>
 	<m e="way" k="natural|landcover|landuse" v="wood|trees|scrub|forest">
 		<area cat="bolt2" fill="#55FF55" blend="12" blend-fill="#AAFFAA"/>
-		<area cat="roam" src="patterns/light_green.png" />
+		<area cat="roam" fill="#00FF00" />
 	</m>
 	<m e="way" k="leisure" v="park|nature_reserve">
 		<area cat="bolt2" fill="#55FF55" blend="12" blend-fill="#AAFFAA"/>
-		<area cat="roam" src="patterns/light_green.png" />
+		<area cat="roam" fill="#00FF00" />
 	</m>
 	<m e="way" k="landuse" v="building|commercial|industrial|residential|retail">
 		<area cat="bolt2" fill="#FFAAAA"/>
-		<area cat="roam" src="patterns/light_red.png" />
+		<area cat="roam" fill="#F0000"/>
 	</m>
 	<m e="way" k="natural" v="wetland">
 		<area cat="bolt2" fill="#55FFFF"/>
 	</m>
 	<m e="way" k="natural" v="beach" zoom-min="12">
 		<area cat="bolt2" fill="#FFFF00"/>
-		<area cat="roam" src="patterns/light_yellow.png" />
+		<area cat="roam" fill="#FFFF00"/>
 	</m>
 	<m e="way" k="natural" v="water">
-		<area cat="roam" fill="#00FFFF"/>
 		<area cat="bolt2" fill="#00AAFF"/>
+		<area cat="roam" fill="#00FFFF"/>
 	</m>
 	<m e="way" k="waterway" v="river|canal">
 		<line cat="roam" width="1" stroke="#00FFFF"/>
@@ -96,9 +96,9 @@
 	<m e="way" k="tunnel" v="~|no|false" zoom-min="8">
 		<!-- highway outlines -->
 		<outline-layer cat="roam" id="roam-highway" stroke="#550000" width="1"/>
-		<outline-layer cat="roam" id="roam-major-roads" stroke="#000000" width="0.6"/>
-		<outline-layer cat="roam" id="roam-minor-roads" stroke="#000000" width="0.4" zoom-min="12"/>
-		<outline-layer cat="roam" id="roam-bikepath" stroke="#000000" width="0.4" zoom-min="12"/>
+		<outline-layer cat="roam" id="roam-major-roads" stroke="#000000" width="1"/>
+		<outline-layer cat="roam" id="roam-minor-roads" stroke="#000000" width="1" zoom-min="12"/>
+		<outline-layer cat="roam" id="roam-bikepath" stroke="#000000" width="1" zoom-min="12"/>
 		<outline-layer cat="bolt2" id="bolt2-highway" stroke="#550000" width="1"/>
 		<outline-layer cat="bolt2" id="bolt2-major-roads" stroke="#000000" width="0.6"/>
 		<outline-layer cat="bolt2" id="bolt2-minor-roads" stroke="#000000" width="0.4" zoom-min="12"/>
@@ -172,7 +172,7 @@
 					<line cat="bolt2" outline="bolt2-highway" stroke="#AA5500" width="3.5"/>
 				</m>
 				<m e="way" k="highway" v="motorway" zoom-min="8" zoom-max="11">
-					<line cat="roam" outline="highway-roam" stroke="#FFFF00" width="4"/>
+					<line cat="roam" outline="roam-highway" stroke="#FFFF00" width="4"/>
 					<line cat="bolt2" outline="bolt2-highway" stroke="#AA5500" width="4"/>
 				</m>
 				<m e="way" k="highway" v="motorway|primary">
