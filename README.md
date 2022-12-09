@@ -4,7 +4,7 @@ This vtm-Rendertheme is based on the original from Wahoo. It will work on the Wa
 
 Press response
 -------------
-I published an article in the German [c't Magazin](https://www.heise.de/select/ct/2022/26/2230710050673252243#!). It discribes the process of creating maps and some basics for adjusting the rendering theme.
+I published an article in the German [c't Magazin](https://www.heise.de/select/ct/2022/26/2230710050673252243). It discribes the process of creating maps and some basics for adjusting the rendering theme.
 
 Usage
 -------------
