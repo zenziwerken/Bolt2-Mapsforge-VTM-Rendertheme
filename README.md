@@ -12,8 +12,7 @@ Usage
 * create the directory `maps\vtm-elemnt`
 * copy files via Explorer to the Bolt
 
-![screenshot1](/screenshots/screenshot1.png)
-![screenshot2](/screenshots/screenshot2.png)
+![screenshot](/screenshots/D72_9314.jpg)
 
 Changes to Original:
 -------------
