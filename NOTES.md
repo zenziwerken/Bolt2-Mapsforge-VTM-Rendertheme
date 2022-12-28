@@ -1,5 +1,5 @@
 ## Colors
-The Wahoo Bolt2 and the Roam2 show 64 color (4<sup>3</sup>) on thier display. When using Hex color only following values are used:
+The Wahoo Bolt2 and the Roam2 show 64 color (4<sup>3</sup>) on the display. When using Hex color only following values are used:
 | Hex Value  | 
 | ------------- |
 | 00  |
