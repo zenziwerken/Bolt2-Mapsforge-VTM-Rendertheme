@@ -19,8 +19,8 @@
 	<style-line id="roam-footpath" cat="roam" stroke="#000000" width="0.5" dasharray="9,3" cap="butt"/>
 	<style-line id="bolt2-footpath" cat="bolt2" stroke="#555555" width="0.6" dasharray="9,3" cap="butt"/>
 	<!-- Steps -->
-	<style-line id="roam-steps" cat="roam" stroke="#000000" width="0.5" dasharray="9,9" cap="butt"/>
-	<style-line id="bolt2-steps" cat="bolt2" stroke="#000000" width="0.5" dasharray="9,9" cap="butt"/>
+	<style-line id="roam-steps" cat="roam" stroke="#000000" width="1.6" dasharray="2,2" cap="butt" />
+	<style-line id="bolt2-steps" cat="bolt2" stroke="#000000" width="1.6" dasharray="2,2" cap="butt" />
 	<!-- Cycle Trails (like MTB) -->
 	<style-line id="roam-trail" cat="roam" stroke="#0000FF" width="1.0"/>
 	<style-line id="bolt2-trail" cat="bolt2" stroke="#00AA00" width="1.5"/>
