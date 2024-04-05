@@ -1,14 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tag-mapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default-zoom-appear="16" profile-name="default-profile" xmlns="http://mapsforge.org/tag-mapping" xsi:schemaLocation="http://mapsforge.org/tag-mapping https://raw.githubusercontent.com/mapsforge/mapsforge/master/resources/tag-mapping.xsd">
 	<!-- ************* POIS *************** -->
-	<pois>
-		<osm-tag key="amenity" value="fuel" zoom-appear="14"/>
-		<osm-tag key="amenity" value="cafe" zoom-appear="14"/>
-		<osm-tag key="amenity" value="drinking_water" zoom-appear="14"/>
-		<osm-tag key="shop" value="bakery" zoom-appear="14"/>
-		<osm-tag key="shop" value="bicycle" zoom-appear="14"/>
-		<osm-tag key="railway" value="station" equivalent-values="station,halt,stop" zoom-appear="13"/>
-	</pois>
+        <pois>
+            <osm-tag key="amenity" value="fuel" zoom-appear="14" />
+            <osm-tag key="amenity" value="cafe" zoom-appear="14" />
+            <osm-tag key="amenity" value="grave_yard" zoom-appear="14" />
+            <osm-tag key="amenity" value="toilets" zoom-appear="14" /> 
+            <osm-tag key="amenity" value="drinking_water" zoom-appear="14" />
+            
+            <osm-tag key="shop" value="bakery" zoom-appear="14" />
+            <osm-tag key="shop" value="bicycle" zoom-appear="14" />
+
+            <osm-tag key="railway" value="station" zoom-appear="13" />
+            <osm-tag key="railway" value="stop" zoom-appear="13" />
+        </pois>
+
+        <ways>
+            <osm-tag key="amenity" label-position="true" value="fuel" zoom-appear="14" />
+            <osm-tag key="amenity" label-position="true" value="cafe" zoom-appear="14" />
+            <osm-tag key="amenity" label-position="true" value="drinking_water" zoom-appear="14" />
+            <osm-tag key="amenity" label-position="true" value="grave_yard" zoom-appear="14" />
+            <osm-tag key="amenity" label-position="true" value="toilets" zoom-appear="14" /> 
+            
+            <osm-tag key="shop" label-position="true" value="bakery" zoom-appear="14" />
+            <osm-tag key="shop" label-position="true" value="bicycle" zoom-appear="14" />
+
+            <osm-tag key="railway" label-position="true" value="station" zoom-appear="13" />
+            <osm-tag key="railway" label-position="true" value="stop" zoom-appear="13" />
+        </ways>
 	<!-- PLACES TAGS -->
 	<pois>
 		<osm-tag key="place" value="city" zoom-appear="8"/>
