@@ -416,27 +416,43 @@
 	<m zoom-min="14">
 		<m k="amenity">
 			<m v="fuel">
-				<symbol cat="bolt2" src="icons/fuel.svg"/>
-				<symbol cat="roam" src="icons/fuel_8color.svg"/>
+				<symbol src="icons/fuel.svg"/>
 			</m>
 			<m v="cafe" zoom-min="15">
-				<symbol cat="bolt2" src="icons/cafe.svg"/>
-				<symbol cat="roam" src="icons/cafe_8color.svg"/>
+				<symbol src="icons/cafe.svg"/>				
+				<m zoom-min="16">
+					<caption cat="bolt2" fill="#550000" k="name" font-family="sans_serif" font-style="bold" priority="6" size="14" stroke="#ffffff" stroke-width="3.0" dy="-16"/>
+				</m>
 			</m>
 			<m v="drinking_water">
-				<symbol cat="bolt2" src="icons/drinking_water.svg"/>
-				<symbol cat="roam" src="icons/drinking_water_8color.svg"/>
+				<symbol src="icons/drinking_water.svg"/>
+			</m>			
+			<m v="toilets">
+				<symbol src="icons/toilets.svg" />
 			</m>
 		</m>
 		<m k="shop">
 			<m v="bakery">
-				<symbol cat="bolt2" src="icons/bakery.svg"/>
-				<symbol cat="roam" src="icons/bakery_8color.svg"/>
+				<symbol src="icons/bakery.svg"/>				
+				<m zoom-min="16">
+					<caption cat="bolt2" fill="#550000" k="name" font-family="sans_serif" font-style="bold" priority="6" size="14" stroke="#ffffff" stroke-width="3.0" dy="-16"/>
+				</m>
+			</m>
+			<m v="supermarket">
+				<symbol src="icons/supermarket.svg"/>		
+				<m zoom-min="16">
+					<caption cat="bolt2" fill="#FF0000" k="name" font-family="sans_serif" font-style="bold" priority="6" size="14" stroke="#ffffff" stroke-width="3.0" dy="-16"/>
+				</m>
 			</m>
 			<m v="bicycle">
-				<symbol cat="bolt2" src="icons/shop_bicycle.svg" symbol-percent="130"/>
-				<symbol cat="roam" src="icons/shop_bicycle_8color.svg" symbol-percent="130"/>
+				<symbol src="icons/shop_bicycle.svg" symbol-percent="130"/>
+				<m zoom-min="16">
+					<caption cat="bolt2" fill="#5500AA" k="name" font-family="sans_serif" font-style="bold" priority="6" size="14" stroke="#ffffff" stroke-width="3.0" dy="-16"/>
+				</m>
 			</m>
+		</m>
+		<m e="way" k="landuse" v="cemetery">
+			<symbol src="icons/cemetery.svg" symbol-percent="110"/>
 		</m>
 	</m>
 	<m k="railway" v="station" zoom-min="13">
