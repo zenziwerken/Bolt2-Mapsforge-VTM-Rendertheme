@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="580" height="580">
+ <metadata id="metadata2975"/>
+<path class="st0" d="M570.4,60.3c-7.3-15-22-24.3-38.4-24.3h-6.8l-47.4,22.5l-1.2,0.7c-1.1,0.6-2.8,1.5-4.5,2.4
+	c-9.8,5-32,16.4-34.8,42.8c-0.5,1.5-0.9,3-1.3,4.5c-38.1,0-76.6-0.1-113.9-0.2c-90.5-0.2-184.2-0.4-276.4,0.2l-2.1,0l-2.1,0.3
+	c-13.2,2-24.4,9.6-30.8,21c-10,18-4.7,37.5-1.6,45.9c4.5,17.5,9,35.2,13.4,52.4c11,43.3,22.4,88.1,34.6,132.3l2.8,10.3l8.7,6.2
+	c18.6,13.2,33.4,15.6,44,16.2c-27,14.5-43.5,33.8-48.9,57.5c-6.7,27.3,4,57,27.2,75.6c21.2,17,48.6,20.6,71.7,9.5
+	c18-8.1,32.2-23.6,39.2-42.6c1.8-5.1,3.1-10.3,3.9-15.6H307c1.6,12.5,6.4,24.8,14.3,35.9c14.2,19.9,35.3,31,57.5,31
+	c4.9,0,9.8-0.5,14.7-1.6c22.4-4.9,41.5-20.9,51.2-42.9c5.3-12,7.4-24.9,6.4-37.3c8.7-10.6,12.8-25.7,11-40.4c0-1.7,0-3.4,0-5.1
+	c-0.1-15.3-0.2-28.5,3.6-40.6l0.4-1.2l0.3-1.2c9.5-42,19.2-84.4,28.5-125.5c8.4-36.7,17-74.6,25.5-112.2c0.6-0.3,1.2-0.6,1.8-1
+	c12.9-6.8,26.3-13.8,38.5-23.4l2.9-2.3l2.3-2.9C576.2,93.9,578,75.8,570.4,60.3z" solid-color="#000000" color-interpolation-filters="linearRGB"  opacity="0.8" filter-gaussianBlur-deviation="0" color="#000000" image-rendering="auto" color-rendering="auto" stroke-width="64" color-interpolation="sRGB" solid-opacity="1" fill="none" stroke-linejoin="round" filter-blend-mode="normal" stroke="#ffffff" shape-rendering="auto"/>
+<path d="
+	M532,66l-40,19c-10,6-25,10-25,25c-3,9-5,19-7,29c-138,0-276-1-414.1,0c-13.3,2-12.5,18-8.2,28C53.7,229,69,291,86,353
+	c16.2,11.5,26,10.5,36,11l282,39c2,11,2,20-12,16c-88,1-177,0-265,1c-15,8-30,20-34,38c-8,32,27,66,57,51c23-10,33-39,22-61h170
+	c-18,29,10,74,45,66c28-6,43-41,29-65c13,1,18-13,16-24c0-19-1-38,5-57c19-84,38-167,57-251c16-9,34-17,48-28C549,80,543,66,532,66z
+	" id="path3407" mix-blend-mode="normal" isolation="auto" white-space="normal" fill="#FF0000" color-rendering="auto" solid-opacity="1" color-interpolation-filters="linearRGB" shape-rendering="auto" fill-rule="evenodd" image-rendering="auto" color-interpolation="sRGB" color="#000000" solid-color="#000000"/>
+</svg>
