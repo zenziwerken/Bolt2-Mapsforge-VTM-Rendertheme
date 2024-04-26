@@ -4,12 +4,14 @@
         <pois>
             <osm-tag key="amenity" value="fuel" zoom-appear="14" />
             <osm-tag key="amenity" value="cafe" zoom-appear="14" />
-            <osm-tag key="amenity" value="grave_yard" zoom-appear="14" />
             <osm-tag key="amenity" value="toilets" zoom-appear="14" /> 
             <osm-tag key="amenity" value="drinking_water" zoom-appear="14" />
+            <osm-tag key="amenity" value="shelter" zoom-appear="14" />
+            <osm-tag key="landuse" value="cemetery" zoom-appear="14" />
             
             <osm-tag key="shop" value="bakery" zoom-appear="14" />
             <osm-tag key="shop" value="bicycle" zoom-appear="14" />
+            <osm-tag key="shop" value="supermarket" zoom-appear="14" />
 
             <osm-tag key="railway" value="station" zoom-appear="13" />
             <osm-tag key="railway" value="stop" zoom-appear="13" />
@@ -19,11 +21,12 @@
             <osm-tag key="amenity" label-position="true" value="fuel" zoom-appear="14" />
             <osm-tag key="amenity" label-position="true" value="cafe" zoom-appear="14" />
             <osm-tag key="amenity" label-position="true" value="drinking_water" zoom-appear="14" />
-            <osm-tag key="amenity" label-position="true" value="grave_yard" zoom-appear="14" />
+            <osm-tag key="amenity" label-position="true" value="cemetery" zoom-appear="14" />
             <osm-tag key="amenity" label-position="true" value="toilets" zoom-appear="14" /> 
             
             <osm-tag key="shop" label-position="true" value="bakery" zoom-appear="14" />
             <osm-tag key="shop" label-position="true" value="bicycle" zoom-appear="14" />
+            <osm-tag key="shop" label-position="true" value="supermarket" zoom-appear="14" />
 
             <osm-tag key="railway" label-position="true" value="station" zoom-appear="13" />
             <osm-tag key="railway" label-position="true" value="stop" zoom-appear="13" />
