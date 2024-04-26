@@ -421,7 +421,7 @@
 			<m v="cafe" zoom-min="15">
 				<symbol src="icons/cafe.svg"/>				
 				<m zoom-min="16">
-					<caption cat="bolt2" fill="#550000" k="name" font-family="sans_serif" font-style="bold" priority="6" size="14" stroke="#ffffff" stroke-width="3.0" dy="-16"/>
+					<caption cat="bolt2" fill="#550000" k="name" font-family="condensed" font-style="bold" priority="6" size="14" stroke="#ffffff" stroke-width="3.0" dy="-16"/>
 				</m>
 			</m>
 			<m v="drinking_water">
@@ -430,24 +430,27 @@
 			<m v="toilets">
 				<symbol src="icons/toilets.svg" />
 			</m>
+			<m v="shelter">
+				<symbol src="icons/shelter.svg"/>
+			</m>
 		</m>
 		<m k="shop">
 			<m v="bakery">
 				<symbol src="icons/bakery.svg"/>				
 				<m zoom-min="16">
-					<caption cat="bolt2" fill="#550000" k="name" font-family="sans_serif" font-style="bold" priority="6" size="14" stroke="#ffffff" stroke-width="3.0" dy="-16"/>
+					<caption cat="bolt2" fill="#550000" k="name" font-family="condensed" font-style="bold" priority="6" size="14" stroke="#ffffff" stroke-width="3.0" dy="-16"/>
 				</m>
 			</m>
 			<m v="supermarket">
 				<symbol src="icons/supermarket.svg"/>		
 				<m zoom-min="16">
-					<caption cat="bolt2" fill="#FF0000" k="name" font-family="sans_serif" font-style="bold" priority="6" size="14" stroke="#ffffff" stroke-width="3.0" dy="-16"/>
+					<caption cat="bolt2" fill="#FF0000" k="name" font-family="condensed" font-style="bold" priority="6" size="14" stroke="#ffffff" stroke-width="3.0" dy="-16"/>
 				</m>
 			</m>
 			<m v="bicycle">
-				<symbol src="icons/shop_bicycle.svg" symbol-percent="130"/>
+				<symbol src="icons/shop_bicycle.svg"/>
 				<m zoom-min="16">
-					<caption cat="bolt2" fill="#5500AA" k="name" font-family="sans_serif" font-style="bold" priority="6" size="14" stroke="#ffffff" stroke-width="3.0" dy="-16"/>
+					<caption cat="bolt2" fill="#5500AA" k="name" font-family="condensed" font-style="bold" priority="6" size="14" stroke="#ffffff" stroke-width="3.0" dy="-16"/>
 				</m>
 			</m>
 		</m>
