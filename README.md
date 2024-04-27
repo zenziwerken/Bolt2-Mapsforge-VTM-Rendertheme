@@ -28,7 +28,8 @@ Changes to Original:
 * added landuse forrest, more detailed with[^note]
 * color of waterways
 * highway outlines for smaller roads and bike lanes / small briges
-* changed color of contruction to red dashed line
+* changed color of construction to red dashed line
+* changed steps to black dashed line
 * added railways
 * added labels for motorway, primary
 * added labels for river
