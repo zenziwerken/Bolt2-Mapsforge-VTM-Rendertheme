@@ -23,7 +23,7 @@
 		<description>Shorten names of supermarket</description>
 		<match type="any" mode="and">
 			<tag k="shop" v="supermarket"/>
-			<tag k="name" match_id="_name" v="(Edeka|EDEKA|Aldi|ALDI)(.*)"/>
+			<tag k="name" match_id="_name" v="(Edeka|EDEKA|Aldi|ALDI|Netto|REWE)(.*)"/>
 		</match>
 		<output>
 			<copy-all/>
