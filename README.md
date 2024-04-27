@@ -33,12 +33,14 @@ Changes to Original:
 * added labels for motorway, primary
 * added labels for river
 * added some pois like fuel, backery, cafe, railway station, bicycle shop[^note]
+* added names for supermarkets und cafes[^note]
 * added landuse buildings[^note]
 
 [^note]: requires [advanced map
     material](https://github.com/treee111/wahooMapsCreator), [this
-    tag-mapping-file](https://github.com/zenziwerken/Bolt2-Mapsforge-Rendertheme/blob/main/tag-wahoo.xml)
-    and the attached icons
+    tag-mapping-file](https://github.com/zenziwerken/Bolt2-Mapsforge-Rendertheme/blob/main/tag-wahoo.xml), [this
+    tagtransform-file](https://github.com/zenziwerken/Bolt2-Mapsforge-VTM-Rendertheme/blob/main/tunnel-transform.xml)
+    and the attached [icons](https://github.com/zenziwerken/Bolt2-Mapsforge-VTM-Rendertheme/tree/main/icons)
 
 Based on the work of
 [BadmanBarista](https://gist.github.com/BadmanBarista/47c34b5e9dca3910bba89c4bcdeb58b6)
