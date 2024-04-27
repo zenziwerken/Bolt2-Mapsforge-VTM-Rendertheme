@@ -29,12 +29,16 @@ So that POI symbols do not cover too much map material in the overview, you can 
   <m zoom-min="15">
     <symbol src="icons/supermarket.svg"/>
   </m>
+  <m zoom-min="16">
+    <caption cat="bolt2" fill="#FF0000" k="name" 
+     font-family="condensed" font-style="bold" priority="6" size="14" 
+     stroke="#ffffff" stroke-width="3.0" dy="-16"/>
+  </m>
 </m>
 ```
-![zoom13](/screenshots/zoom 13.png) 
-![zoom14](/screenshots/zoom 14.png)
-![zoom15](/screenshots/zoom 15.png)
-![zoom]16(/screenshots/zoom 16.png)
+![zoom14](/screenshots/zoom%2014.png)
+![zoom15](/screenshots/zoom%2015.png)
+![zoom16](/screenshots/zoom%2016.png)
 
 ## Railway presentation
 Apart from the dashed lines there is the possibility of adding stipple strokes like this:
