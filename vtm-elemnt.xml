@@ -418,7 +418,7 @@
 			<m v="fuel">
 				<symbol src="icons/fuel.svg"/>
 			</m>
-			<m v="cafe" zoom-min="15">
+			<m v="cafe">
 				<m zoom-min="14">
 					<symbol src="icons/cafe_bakery_small.svg" symbol-percent="50"/>
 				</m>
