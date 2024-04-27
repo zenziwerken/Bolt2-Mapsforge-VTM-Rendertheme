@@ -31,7 +31,10 @@ So that POI symbols do not cover too much map material in the overview, you can 
   </m>
 </m>
 ```
-
+![zoom13](/screenshots/zoom 13.png) 
+![zoom14](/screenshots/zoom 14.png)
+![zoom15](/screenshots/zoom 15.png)
+![zoom]16(/screenshots/zoom 16.png)
 
 ## Railway presentation
 Apart from the dashed lines there is the possibility of adding stipple strokes like this:
