@@ -19,6 +19,19 @@ To adjust the size of symbols they can be scaled like this:
 
 `<symbol src="icons/train_station.svg" symbol-percent="130"/>`
 
+So that POI symbols do not cover too much map material in the overview, you can also use different symbols for different zoom levels.
+
+```
+<m v="supermarket">
+  <m zoom-min="14">
+    <symbol src="icons/supermarket_small.svg" symbol-percent="50"/>
+  </m>
+  <m zoom-min="15">
+    <symbol src="icons/supermarket.svg"/>
+  </m>
+</m>
+```
+
 
 ## Railway presentation
 Apart from the dashed lines there is the possibility of adding stipple strokes like this:
