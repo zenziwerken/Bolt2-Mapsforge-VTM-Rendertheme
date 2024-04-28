@@ -23,7 +23,22 @@
 		<description>Shorten names of supermarket</description>
 		<match type="any" mode="and">
 			<tag k="shop" v="supermarket"/>
-			<tag k="name" match_id="_name" v="(Edeka|EDEKA|Aldi|ALDI|Netto|REWE|PENNY)(.*)"/>
+			<tag k="name" match_id="_name" v="(.*)(Edeka|EDEKA|Aldi|ALDI|Netto|REWE|PENNY)(.*)"/>
+		</match>
+		<output>
+			<copy-all/>
+			<tag k="name" from_match="_name" v="{1}"/>
+		</output>
+	</translation>
+	<translation>
+		<name>Shorten names of backery/cafés</name>
+		<description>Shorten names of backery/cafés</description>
+		<match type="any" mode="and">
+			<match mode="or">
+				<tag k="amenity" v="cafe"/>
+				<tag k="shop" v="bakery"/>
+			</match>
+			<tag k="name" match_id="_name" v="(.{12})(.*)"/>
 		</match>
 		<output>
 			<copy-all/>
