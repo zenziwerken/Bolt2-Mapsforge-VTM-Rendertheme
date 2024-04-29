@@ -31,8 +31,8 @@
 		</output>
 	</translation>
 	<translation>
-		<name>Shorten names of backery/cafés</name>
-		<description>Shorten names of backery/cafés</description>
+		<name>Shorten names of bakery/cafes</name>
+		<description>Shorten names of bakery/cafes</description>
 		<match type="any" mode="and">
 			<match mode="or">
 				<tag k="amenity" v="cafe"/>
