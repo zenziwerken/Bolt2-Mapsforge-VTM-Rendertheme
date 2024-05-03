@@ -204,6 +204,21 @@
 					</m>
 				</m>
 				<m e="way" k="highway" v="path" zoom-min="12" select="first">
+					<m k="mtb:scale" v="0">
+						<line stroke="#00AA00" width="0.8" dasharray="5,2"/>
+						<pathText cat="bolt2" fill="#ffffff" k="mtb:scale" font-family="default_bold" font-style="bold" priority="0" size="16" stroke="#00AA00" stroke-width="4"/>
+					</m>
+					<m k="mtb:scale" v="1">
+						<line stroke="#FFAA00" width="0.8" dasharray="5,2"/>
+						<pathText cat="bolt2" fill="#ffffff" k="mtb:scale" font-family="default_bold" font-style="bold" priority="0" size="16" stroke="#FFAA00" stroke-width="4"/>
+					</m>
+					<m k="mtb:scale" v="2">
+						<line stroke="#FF0000" width="0.8" dasharray="5,2"/>
+						<pathText cat="bolt2" fill="#ffffff" k="mtb:scale" font-family="default_bold" font-style="bold" priority="0" size="16" stroke="#FF0000" stroke-width="4"/>
+					</m>
+					<m k="mtb:type" v="mtb_trail">
+						<line stroke="#AA00FF" width="0.8" dasharray="13,5"/>
+					</m>
 					<m k="bicycle" v="bic_yes|bic_designated">
 						<!-- specifically for cycle -->
 						<m k="surface" v="bic_paved">
