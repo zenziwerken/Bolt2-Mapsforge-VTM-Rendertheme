@@ -120,5 +120,10 @@
 		<osm-tag key="bicycle" value="bic_designated" equivalent-values="designated,official" renderable="false"/>
 		<osm-tag key="foot" value="ft_yes" equivalent-values="yes,public,allowed" renderable="false"/>
 		<osm-tag key="foot" value="ft_designated" equivalent-values="designated,official" renderable="false"/>
+		
+		<osm-tag key="mtb:type" value="mtb_trail" equivalent-values="trail,crosscountry,singletrack" renderable="false" />
+		<osm-tag key="mtb:scale" value="0" renderable="false" />
+		<osm-tag key="mtb:scale" value="1" renderable="false" />
+		<osm-tag key="mtb:scale" value="2" renderable="false" />
 	</ways>
 </tag-mapping>
