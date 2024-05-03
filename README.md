@@ -33,8 +33,9 @@ Changes to Original:
 * added railways
 * added labels for motorway, primary
 * added labels for river
-* added some pois like fuel, backery, cafe, railway station, bicycle shop[^note]
-* added names for cafes and shortnames for supermarkets[^note]
+* added some pois like fuel, bakery, cafe, railway station, bicycle shop[^note]
+* added names for cafes and shortnames for supermarkets/bakerys [^note]
+* added mtb:scale and mtb:type with value-caption [^note]
 * added landuse buildings[^note]
 
 [^note]: requires [advanced map
