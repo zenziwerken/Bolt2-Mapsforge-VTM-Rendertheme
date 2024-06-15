@@ -66,6 +66,10 @@
 		<area cat="bolt2" fill="#FFAAAA"/>
 		<area cat="roam" fill="#FF0000"/>
 	</m>
+	<m e="way" k="amenity" v="hospital">
+		<area cat="bolt2" fill="#FFAAAA"/>
+		<area cat="roam" fill="#FF0000"/>
+	</m>
 	<m e="way" k="natural" v="wetland">
 		<area cat="bolt2" fill="#55FFFF"/>
 	</m>
@@ -468,6 +472,60 @@
 					<symbol src="icons/shelter.svg"/>
 				</m>
 			</m>
+			<m v="ice_cream">
+				<m zoom-min="14">
+					<symbol src="icons/ice_cream.svg" symbol-percent="50"/>
+				</m>
+				<m zoom-min="15">
+					<symbol src="icons/ice_cream.svg"/>
+				</m>
+			</m>
+			<m v="police">
+				<m zoom-min="14">
+					<symbol src="icons/police.svg" symbol-percent="50"/>
+				</m>
+				<m zoom-min="15">
+					<symbol src="icons/police.svg"/>
+				</m>
+				<m zoom-min="14">
+					<caption cat="bolt2" fill="#550000" k="name" font-family="condensed" font-style="bold" priority="6" size="14" stroke="#ffffff" stroke-width="3.0" dy="-16"/>
+				</m>
+			</m>
+			<m v="pharmacy">
+				<m zoom-min="14">
+					<symbol src="icons/pharmacy.svg" symbol-percent="50"/>
+				</m>
+				<m zoom-min="15">
+					<symbol src="icons/pharmacy.svg"/>
+				</m>
+				<m zoom-min="14">
+					<caption cat="bolt2" fill="#550000" k="name" font-family="condensed" font-style="bold" priority="6" size="14" stroke="#ffffff" stroke-width="3.0" dy="-16"/>
+				</m>
+			</m>
+			<m v="marketplace">
+				<m zoom-min="14">
+					<symbol src="icons/marketplace.svg" symbol-percent="50"/>
+				</m>
+				<m zoom-min="15">
+					<symbol src="icons/marketplace.svg"/>
+				</m>
+			</m>
+			<m v="bicycle_repair_station">
+				<m zoom-min="14">
+					<symbol src="icons/bicycle_repair_station.svg" symbol-percent="50"/>
+				</m>
+				<m zoom-min="15">
+					<symbol src="icons/bicycle_repair_station.svg"/>
+				</m>
+			</m>
+			<m v="bicycle_parking">
+				<m zoom-min="15">
+					<symbol src="icons/bicycle_parking.svg" symbol-percent="50"/>
+				</m>
+				<m zoom-min="16">
+					<symbol src="icons/bicycle_parking.svg"/>
+				</m>
+			</m>
 		</m>
 		<m k="shop">
 			<m v="bakery">
@@ -492,6 +550,50 @@
 					<caption cat="bolt2" fill="#FF0000" k="name" font-family="condensed" font-style="bold" priority="6" size="14" stroke="#ffffff" stroke-width="3.0" dy="-16"/>
 				</m>
 			</m>
+			<m v="convenience">
+				<m zoom-min="14">
+					<symbol src="icons/convenience.svg" symbol-percent="50"/>
+				</m>
+				<m zoom-min="15">
+					<symbol src="icons/convenience.svg"/>
+				</m>
+				<m zoom-min="16">
+					<caption cat="bolt2" fill="#FF0000" k="name" font-family="condensed" font-style="bold" priority="6" size="14" stroke="#ffffff" stroke-width="3.0" dy="-16"/>
+				</m>
+			</m>
+			<m v="ice_cream">
+				<m zoom-min="14">
+					<symbol src="icons/ice_cream.svg" symbol-percent="50"/>
+				</m>
+				<m zoom-min="15">
+					<symbol src="icons/ice_cream.svg"/>
+				</m>
+				<m zoom-min="16">
+					<caption cat="bolt2" fill="#FF0000" k="name" font-family="condensed" font-style="bold" priority="6" size="14" stroke="#ffffff" stroke-width="3.0" dy="-16"/>
+				</m>
+			</m>
+			<m v="farm">
+				<m zoom-min="14">
+					<symbol src="icons/farmshop.svg" symbol-percent="50"/>
+				</m>
+				<m zoom-min="15">
+					<symbol src="icons/farmshop.svg"/>
+				</m>
+				<m zoom-min="16">
+					<caption cat="bolt2" fill="#FF0000" k="name" font-family="condensed" font-style="bold" priority="6" size="14" stroke="#ffffff" stroke-width="3.0" dy="-16"/>
+				</m>
+			</m>
+			<m v="dairy">
+				<m zoom-min="14">
+					<symbol src="icons/dairy.svg" symbol-percent="50"/>
+				</m>
+				<m zoom-min="15">
+					<symbol src="icons/dairy.svg"/>
+				</m>
+				<m zoom-min="16">
+					<caption cat="bolt2" fill="#FF0000" k="name" font-family="condensed" font-style="bold" priority="6" size="14" stroke="#ffffff" stroke-width="3.0" dy="-16"/>
+				</m>
+			</m>
 			<m v="bicycle">
 				<m zoom-min="14">
 					<symbol src="icons/shop_bicycle_small.svg" symbol-percent="50"/>
@@ -502,6 +604,60 @@
 				<m zoom-min="16">
 					<caption cat="bolt2" fill="#5500AA" k="name" font-family="condensed" font-style="bold" priority="6" size="14" stroke="#ffffff" stroke-width="3.0" dy="-16"/>
 				</m>
+			</m>
+		</m>
+		<m k="vending">
+			<m v="food">
+				<m zoom-min="14">
+					<symbol src="icons/vending_machine.svg" symbol-percent="50"/>
+				</m>
+				<m zoom-min="15">
+					<symbol src="icons/vending_machine.svg"/>
+				</m>
+				<m zoom-min="16">
+					<caption cat="bolt2" fill="#5500AA" k="name" font-family="condensed" font-style="bold" priority="6" size="14" stroke="#ffffff" stroke-width="3.0" dy="-16"/>
+				</m>
+			</m>
+			<m v="drinks">
+				<m zoom-min="14">
+					<symbol src="icons/vending_machine.svg" symbol-percent="50"/>
+				</m>
+				<m zoom-min="15">
+					<symbol src="icons/vending_machine.svg"/>
+				</m>
+				<m zoom-min="16">
+					<caption cat="bolt2" fill="#5500AA" k="name" font-family="condensed" font-style="bold" priority="6" size="14" stroke="#ffffff" stroke-width="3.0" dy="-16"/>
+				</m>
+			</m>
+			<m v="water">
+				<m zoom-min="14">
+					<symbol src="icons/drinking_water_small.svg" symbol-percent="50"/>
+				</m>
+				<m zoom-min="15">
+					<symbol src="icons/drinking_water.svg"/>
+				</m>
+			</m>
+		</m>
+		<m e="way" k="amenity" v="hospital">
+			<m zoom-min="12">
+				<symbol src="icons/hospital.svg" symbol-percent="50"/>
+			</m>
+			<m zoom-min="15">
+				<symbol src="icons/hospital.svg"/>
+			</m>
+			<m zoom-min="13">
+				<caption cat="bolt2" fill="#550000" k="name" font-family="condensed" font-style="bold" priority="6" size="14" stroke="#ffffff" stroke-width="3.0" dy="-16"/>
+			</m>
+		</m>
+		<m e="way" k="amenity" v="townhall">
+			<m zoom-min="12">
+				<symbol src="icons/townhall.svg" symbol-percent="50"/>
+			</m>
+			<m zoom-min="15">
+				<symbol src="icons/townhall.svg"/>
+			</m>
+			<m zoom-min="13">
+				<caption cat="bolt2" fill="#550000" k="name" font-family="condensed" font-style="bold" priority="6" size="14" stroke="#ffffff" stroke-width="3.0" dy="-16"/>
 			</m>
 		</m>
 		<m e="way" k="landuse" v="cemetery">
@@ -517,4 +673,17 @@
 		<symbol cat="bolt2" src="icons/train_station.svg" symbol-percent="130"/>
 		<symbol cat="roam" src="icons/train_station_8color.svg" symbol-percent="130"/>
 	</m>
+	<m k="amenity" v="ferry_terminal" zoom-min="13">
+		<symbol cat="bolt2" src="icons/ferry_terminal.svg" symbol-percent="130"/>
+		<symbol cat="roam" src="icons/ferry_terminal.svg" symbol-percent="130"/>
+	</m>
+	<m k="amenity" v="hospital" zoom-min="12">
+		<symbol cat="bolt2" src="icons/hospital.svg" symbol-percent="130"/>
+		<symbol cat="roam" src="icons/hospital.svg" symbol-percent="130"/>
+	</m>
+	<m k="amenity" v="townhall" zoom-min="13">
+		<symbol cat="bolt2" src="icons/townhall.svg" symbol-percent="130"/>
+		<symbol cat="roam" src="icons/townhall.svg" symbol-percent="130"/>
+	</m>
+
 </rendertheme>
